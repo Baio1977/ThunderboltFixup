@@ -72,7 +72,7 @@ jobs:
     runs-on: macos-latest
     env:
       JOB_TYPE: COVERITY
-    if: github.repository_owner == 'acidanthera' && github.event_name != 'pull_request'
+    if: github.repository_owner == 'lvs1974' && github.event_name != 'pull_request'
     steps:
       - uses: actions/checkout@v4.2.2
       - uses: actions/checkout@v4.2.2
